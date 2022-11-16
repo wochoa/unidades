@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^0.21",
+        "bootstrap": "^5.2.2",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.18",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.55.0",
+        "sass-loader": "^11.0.1",
+        "vue": "^2.7.13",
+        "vue-loader": "^15.10.0",
+        "vue-template-compiler": "^2.7.13"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.2.0",
+        "admin-lte": "^3.2.0",
+        "autoprefixer": "10.4.5",
+        "bootstrap-vue": "^2.22.0",
+        "element-ui": "^2.15.10",
+        "laravel-vue-pagination": "^2.3.1",
+        "swiper": "^5.4.5",
+        "vue-awesome-swiper": "^4.1.1",
+        "vue-ripple-directive": "^2.0.1",
+        "vue-router": "^3.6.5",
+        "vue-select": "^3.20.0",
+        "vue-sweetalert2": "^5.0.5"
+    }
+}
