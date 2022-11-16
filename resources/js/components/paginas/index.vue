@@ -31,9 +31,9 @@
                     <!-- SECCION 2 -->
                     <div class="row">
 
-                        <div class="col-sm-4" v-for="(sec2,indexs2) in listasecciones" v-if="sec2.seccion_pag==2" v-html="sec2.titulo">
+                        <template  v-for="(sec2,indexs2) in listasecciones" v-if="sec2.seccion_pag==2" v-html="sec2.titulo">
 
-                        </div>
+                        </template>
 
                     </div>
 
