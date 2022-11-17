@@ -79,6 +79,8 @@ export default {
     },
     created() {
         this.cargamenus();
+        
+
     },
     methods: {
         cargamenus() {
@@ -86,7 +88,7 @@ export default {
             axios.get(url)
                 .then(response => {
                     this.listamenus = response.data.menus;
-                    this.listasubmenus = response.data.submenus;
+                    this.listasubmenus = response.data.submenus;                    
                 });
         },
         recorta_cad(texto) {

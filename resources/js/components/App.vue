@@ -29,10 +29,11 @@ export default {
         return {
 
             temas: {},
+            titulopag:'',         
         }
     },
     created() {
-
+       
         this.temaspage();
     },
     methods: {
@@ -42,6 +43,8 @@ export default {
             axios.get(url)
                 .then(response => {
                     this.temas = response.data.tema;
+                    this.titulopag=this.temas.nombredireccionweb;
+                    document.title = this.titulopag//this.titulopag;
                 });
         }
     },

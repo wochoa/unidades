@@ -51,6 +51,10 @@ export default new Router({
             component:Convocatorias
         },
         {
+            path:'/convocatorias',
+            component:Convocatorias
+        },
+        {
             path:'/lautoridades',
             component:Autoridades
         },
